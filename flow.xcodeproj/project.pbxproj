@@ -15,6 +15,8 @@
 		B44F3E34237977AC005BB1E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B44F3E32237977AC005BB1E1 /* LaunchScreen.storyboard */; };
 		B44F3E3F237977AC005BB1E1 /* flowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44F3E3E237977AC005BB1E1 /* flowTests.swift */; };
 		B44F3E4A237977AC005BB1E1 /* flowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44F3E49237977AC005BB1E1 /* flowUITests.swift */; };
+		B44F3E58237978E1005BB1E1 /* SongQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44F3E57237978E1005BB1E1 /* SongQuery.swift */; };
+		B44F3E5A23797DA7005BB1E1 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44F3E5923797DA7005BB1E1 /* Song.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		B44F3E45237977AC005BB1E1 /* flowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B44F3E49237977AC005BB1E1 /* flowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flowUITests.swift; sourceTree = "<group>"; };
 		B44F3E4B237977AC005BB1E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B44F3E57237978E1005BB1E1 /* SongQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongQuery.swift; sourceTree = "<group>"; };
+		B44F3E5923797DA7005BB1E1 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				B44F3E32237977AC005BB1E1 /* LaunchScreen.storyboard */,
 				B44F3E35237977AC005BB1E1 /* Info.plist */,
 				B44F3E2F237977AC005BB1E1 /* Preview Content */,
+				B44F3E57237978E1005BB1E1 /* SongQuery.swift */,
+				B44F3E5923797DA7005BB1E1 /* Song.swift */,
 			);
 			path = flow;
 			sourceTree = "<group>";
@@ -270,6 +276,8 @@
 				B44F3E28237977AB005BB1E1 /* AppDelegate.swift in Sources */,
 				B44F3E2A237977AB005BB1E1 /* SceneDelegate.swift in Sources */,
 				B44F3E2C237977AB005BB1E1 /* ContentView.swift in Sources */,
+				B44F3E58237978E1005BB1E1 /* SongQuery.swift in Sources */,
+				B44F3E5A23797DA7005BB1E1 /* Song.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
